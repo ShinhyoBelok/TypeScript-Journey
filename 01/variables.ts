@@ -9,6 +9,14 @@ num.valueOf
 
 console.log(greetings);
 
+// any case
+let hero: string;
+
+function getHero() {
+    return "Spider-man"
+}
+
+hero = getHero();
 
 
 export {}
