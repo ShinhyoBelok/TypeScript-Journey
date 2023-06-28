@@ -1,7 +1,10 @@
 let greetings: string = "Hello Shinhyo";
 let num: number = 5;
+let booLean: boolean = true;
 
-greetings.length
+let nums = 55;
+nums = 'hi';
+greetings.length;
 num.valueOf
 
 console.log(greetings);
