@@ -19,4 +19,14 @@ function getHero() {
 hero = getHero();
 
 
+// function types
+
+function addTwo(num: number) {
+    return num + 2;
+};
+
+addTwo('4');
+addTwo(4);
+
+
 export {}
