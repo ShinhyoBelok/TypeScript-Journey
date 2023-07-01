@@ -5,6 +5,43 @@ function getUserChoice(): number{
   return randomNum;
 }
 
+function f1() {
+  return 'apple.jpg'
+}
+function f2() {
+  return 'pineapple.jpg'
+}
+function f3() {
+  return 'mango.jpg'
+}
+function f4() {
+  return 'banana.jpg'
+}
+function f5() {
+  return 'orange.jpg'
+}
+function f6() {
+  return 'strawberry.jpg'
+}
+function f7() {
+  return 'fruit7.jpg'
+}
+function f8() {
+  return 'fruit8.jpg'
+}
+function f9() {
+  return 'fruit9.jpg'
+}
+function f10() {
+  return 'fruit10.jpg'
+}
+function f11() {
+  return 'fruit11.jpg'
+}
+function f12() {
+  return 'fruit12.jpg'
+}
+
 function returnFruit(): string{
     let num = getUserChoice();
     switch(num){
