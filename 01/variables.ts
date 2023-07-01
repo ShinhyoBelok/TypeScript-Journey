@@ -18,5 +18,23 @@ function getHero() {
 
 hero = getHero();
 
+// any case
+let hero: string;
+
+function getHero() {
+    return "Spider-man"
+}
+
+hero = getHero();
+
+// any case
+let hero: string;
+
+function getHero() {
+    return "Spider-man"
+}
+
+hero = getHero();
+
 
 export {}
