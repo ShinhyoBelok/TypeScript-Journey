@@ -61,3 +61,5 @@ function returnFruit(): string{
     return 'durian.jpg'
   }
   console.log(returnFruit());
+
+  export {}
