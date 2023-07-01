@@ -43,23 +43,32 @@ function f12() {
 }
 
 function returnFruit(): string{
-    let num = getUserChoice();
-    switch(num){
-      case 1 : return f1();
-          case 2 : return f2();
-          case 3 : return f3();
-          case 4 : return f4();
-          case 5 : return f5();
-          case 6 : return f6();
-          case 7 : return f7();
-          case 8 : return f8();
-          case 9 : return f9();
-          case 10 : return f10();
-          case 11 : return f11();
-          case 12 : return f12();
-    }
-    return 'durian.jpg'
+  let num = getUserChoice();
+  switch(num){
+    case 1 : return f1();
+        case 2 : return f2();
+        case 3 : return f3();
+        case 4 : return f4();
+        case 5 : return f5();
+        case 6 : return f6();
+        case 7 : return f7();
+        case 8 : return f8();
+        case 9 : return f9();
+        case 10 : return f10();
+        case 11 : return f11();
+        case 12 : return f12();
   }
-  console.log(returnFruit());
+  return 'durian.jpg'
+}
+console.log(returnFruit());
 
-  export {}
+// Function that does not return anything we can use the type void for the return type
+function makeFruitSalad(fruit1:string, fruit2:string): void{
+  let salad=fruit1+fruit2+fruit2+fruit1+fruit2+fruit1+fruit1;
+  console.log(salad);
+}
+
+makeFruitSalad('banana','pineapple');
+// end function void type
+
+export {}
