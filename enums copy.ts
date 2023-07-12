@@ -8,3 +8,11 @@ const enum asientoOpcion {
   VENTANA
 }
 
+const pasajero1 = asientoOpcion.PASILLO;
+
+const enum mesa {
+  pricipal = "pricipal",
+  ventana = 1,
+  ventana2,
+  ventana3
+}
